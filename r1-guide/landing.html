@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rabbit R1 Guide</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        :root {
+            --primary-color: #ff4500;
+            --secondary-color: #ff7f50;
+            --text-color: #333333;
+            --bg-color: #ffffff;
+            --card-bg: #f8f9fa;
+            --border-color: #e0e0e0;
+            --success-color: #28a745;
+            --link-color: #0066cc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 10px;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        /* Optimized for Rabbit R1's 2.88-inch screen */
+        @media (max-width: 320px) {
+            body {
+                font-size: 12px;
+                padding: 8px;
+            }
+            
+            h1 {
+                font-size: 18px;
+            }
+            
+            h2 {
+                font-size: 16px;
+            }
+            
+            .btn {
+                padding: 8px 12px;
+                font-size: 12px;
+            }
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            max-width: 80px;
+            margin: 0 auto 10px;
+            display: block;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 16px;
+            margin: 15px 0 8px;
+            color: var(--primary-color);
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .divider {
+            height: 3px;
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            margin: 10px 0;
+            border-radius: 2px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid var(--border-color);
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            margin: 5px 0;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover, .btn:focus {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(-1px);
+        }
+
+        .btn-block {
+            display: block;
+            width: 100%;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .feature-item {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .feature-icon {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 5px;
+        }
+
+        .feature-title {
+            font-weight: 600;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 10px;
+            color: #666;
+            padding: 10px 0;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .version {
+            font-size: 10px;
+            text-align: center;
+            margin-top: 5px;
+            color: #666;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .device-check {
+            background-color: #fff8e1;
+            border-left: 3px solid #ffcc80;
+            padding: 8px;
+            margin: 10px 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="r1_device.png" alt="Rabbit R1 Device" class="logo">
+            <h1>Rabbit R1 Guide</h1>
+            <p>Your comprehensive guide to the Rabbit R1 AI assistant device</p>
+        </header>
+
+        <div class="divider"></div>
+
+        <div class="device-check">
+            <p>This guide is optimized for the Rabbit R1's 2.88-inch screen. We're checking if you're using a Rabbit R1...</p>
+        </div>
+
+        <div class="card">
+            <h2>Project Overview</h2>
+            <p>This guide provides comprehensive information about your Rabbit R1 device, including setup instructions, feature guides, and troubleshooting tips.</p>
+            <p>The content is specifically optimized for the Rabbit R1's 2.88-inch screen and unique interface.</p>
+        </div>
+
+        <h2>Quick Start</h2>
+        <div class="features">
+            <div class="feature-item">
+                <img src="icons/getting_started.png" alt="Getting Started" class="feature-icon">
+                <div class="feature-title">Getting Started</div>
+            </div>
+            <div class="feature-item">
+                <img src="icons/features.png" alt="Core Features" class="feature-icon">
+                <div class="feature-title">Core Features</div>
+            </div>
+            <div class="feature-item">
+                <img src="icons/troubleshooting.png" alt="Troubleshooting" class="feature-icon">
+                <div class="feature-title">Troubleshooting</div>
+            </div>
+            <div class="feature-item">
+                <img src="icons/language.png" alt="Languages" class="feature-icon">
+                <div class="feature-title">Languages</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Comprehensive device guide</li>
+                <li>14 supported languages</li>
+                <li>Offline access capability</li>
+                <li>Automatic updates</li>
+                <li>Optimized for 2.88-inch screen</li>
+            </ul>
+        </div>
+
+        <a href="index.html" class="btn btn-block">Enter Full Guide</a>
+        <a href="test.html" class="btn btn-outline btn-block">Run Compatibility Test</a>
+
+        <div class="version">
+            <p>Version: <span id="version">1.0.0</span> | <span id="date">April 9, 2025</span></p>
+        </div>
+
+        <footer>
+            &copy; 2025 Rabbit R1 Guide | Unofficial guide not affiliated with Rabbit Inc.
+        </footer>
+    </div>
+
+    <script>
+        // Simple device detection for Rabbit R1
+        document.addEventListener('DOMContentLoaded', function() {
+            const deviceCheckElement = document.querySelector('.device-check');
+            
+            // Check if detect.js is available and use it
+            if (typeof detectRabbitR1 === 'function') {
+                const result = detectRabbitR1();
+                if (result.isRabbitR1) {
+                    deviceCheckElement.innerHTML = '<p style="color: #28a745;">✓ Rabbit R1 detected! This guide is optimized for your device.</p>';
+                    deviceCheckElement.style.borderLeft = '3px solid #28a745';
+                    deviceCheckElement.style.backgroundColor = '#f0fff0';
+                } else {
+                    deviceCheckElement.innerHTML = '<p>This guide is optimized for the Rabbit R1 device but will work on other devices too.</p>';
+                }
+            } else {
+                // Simple fallback detection based on screen size
+                const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+                const screenHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+                
+                if (screenWidth <= 320 && screenHeight <= 480) {
+                    deviceCheckElement.innerHTML = '<p>Your device appears to be similar to the Rabbit R1\'s screen size.</p>';
+                } else {
+                    deviceCheckElement.innerHTML = '<p>This guide is optimized for the Rabbit R1\'s 2.88-inch screen but will adapt to your device.</p>';
+                }
+            }
+            
+            // Try to load version from VERSION.txt
+            fetch('VERSION.txt')
+                .then(response => response.text())
+                .then(data => {
+                    const versionMatch = data.match(/Version: ([\d\.]+)/);
+                    const dateMatch = data.match(/Date: (.+)/);
+                    
+                    if (versionMatch && versionMatch[1]) {
+                        document.getElementById('version').textContent = versionMatch[1];
+                    }
+                    
+                    if (dateMatch && dateMatch[1]) {
+                        document.getElementById('date').textContent = dateMatch[1];
+                    }
+                })
+                .catch(error => {
+                    console.log('Could not load version information');
+                });
+        });
+    </script>
+</body>
+</html>

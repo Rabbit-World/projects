@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "language": "日本語",
+    "direction": "ltr"
+  },
+  "header": {
+    "title": "Rabbit R1 ガイド",
+    "menu": "メニュー切替"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "getting_started": "はじめに",
+    "core_features": "主要機能",
+    "tech_specs": "技術仕様",
+    "language": "言語",
+    "troubleshooting": "トラブルシューティング",
+    "faq": "よくある質問",
+    "updates": "アップデート"
+  },
+  "home": {
+    "welcome": "Rabbit R1へようこそ",
+    "tagline": "自然な会話でデジタルタスクを簡素化するポケットAIアシスタント。",
+    "quick_access": "クイックアクセス",
+    "setup_device": "デバイスの設定",
+    "learn_basics": "基本を学ぶ",
+    "explore_features": "機能を探る",
+    "get_help": "ヘルプを得る"
+  },
+  "getting_started": {
+    "title": "はじめに",
+    "unboxing": {
+      "title": "R1の開封",
+      "description": "Rabbit R1パッケージには、デバイス本体、USB-C充電ケーブル、クイックスタートガイドが含まれています。",
+      "step1": "パッケージからR1を取り出します",
+      "step2": "付属のUSB-Cケーブルを使用してデバイスを充電します",
+      "step3": "電源ボタンを長押ししてデバイスの電源を入れます"
+    },
+    "initial_setup": {
+      "title": "初期設定",
+      "description": "Rabbit R1を初めて設定するには、次の手順に従ってください：",
+      "step1": "電源ボタンを長押ししてR1の電源を入れます",
+      "step2": "画面上の指示に従ってWi-Fiに接続します",
+      "step3": "Rabbitアカウントを作成するか、サインインします",
+      "step4": "デバイスのアクティベーションプロセスを完了します",
+      "step5": "これでR1の使用準備が整いました！"
+    },
+    "basic_controls": {
+      "title": "基本的な操作方法",
+      "power_button": "電源ボタン：長押しで電源オン/オフ。短く押すとスリープ/ウェイク。",
+      "rabbit_button": "Rabbitボタン：長押しで音声アシスタントを起動。",
+      "volume": "音量調節：側面のボタンを使用して音量を調節します。",
+      "scroll_wheel": "スクロールホイール：メニューやオプションをナビゲートします。"
+    },
+    "connecting": {
+      "title": "Wi-Fiへの接続",
+      "description": "R1が正常に機能するには、安定したインターネット接続が必要です。",
+      "step1": "設定 > ネットワークに移動します",
+      "step2": "Wi-Fiネットワークを選択します",
+      "step3": "必要に応じてパスワードを入力します",
+      "step4": "R1は今後、このネットワークに自動的に接続します"
+    }
+  },
+  "language_settings": {
+    "title": "言語設定",
+    "select_language": "希望する言語を選択してください：",
+    "note": "言語を変更すると、このガイドのインターフェース言語が更新されます。",
+    "translation_title": "翻訳",
+    "translation_description": "Rabbit R1は複数の言語でリアルタイム翻訳をサポートしています。",
+    "supported_languages": "翻訳対応言語："
+  },
+  "buttons": {
+    "learn_more": "詳細を見る",
+    "download": "ダウンロード",
+    "apply": "適用",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "next": "次へ",
+    "previous": "前へ"
+  }
+}

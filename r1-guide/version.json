@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-04-09T20:53:11Z",
+  "modules": {
+    "core": {
+      "version": "1.0.0",
+      "lastUpdated": "2025-04-09T20:53:11Z",
+      "files": ["index.html", "main.js", "styles.css", "detect.js"]
+    },
+    "languages": {
+      "version": "1.0.0",
+      "lastUpdated": "2025-04-09T20:53:11Z",
+      "files": [
+        "lang/en.json",
+        "lang/es.json",
+        "lang/fr.json",
+        "lang/de.json",
+        "lang/it.json",
+        "lang/pt.json",
+        "lang/ru.json",
+        "lang/ja.json",
+        "lang/ko.json",
+        "lang/zh-CN.json",
+        "lang/zh-TW.json",
+        "lang/ar.json",
+        "lang/hi.json",
+        "lang/sv.json"
+      ]
+    },
+    "assets": {
+      "version": "1.0.0",
+      "lastUpdated": "2025-04-09T20:53:11Z",
+      "files": ["r1_device.png", "favicon.ico", "icons/*"]
+    },
+    "content": {
+      "home": {
+        "version": "1.0.0",
+        "lastUpdated": "2025-04-09T20:53:11Z"
+      },
+      "getting-started": {
+        "version": "1.0.0",
+        "lastUpdated": "2025-04-09T20:53:11Z"
+      },
+      "core-features": {
+        "version": "1.0.0",
+        "lastUpdated": "2025-04-09T20:53:11Z"
+      },
+      "tech-specs": {
+        "version": "1.0.0",
+        "lastUpdated": "2025-04-09T20:53:11Z"
+      },
+      "troubleshooting": {
+        "version": "1.0.0",
+        "lastUpdated": "2025-04-09T20:53:11Z"
+      },
+      "faq": {
+        "version": "1.0.0",
+        "lastUpdated": "2025-04-09T20:53:11Z"
+      }
+    }
+  },
+  "updateEndpoint": "https://rabbit-r1-guide.example.com/updates",
+  "minimumSupportedVersion": "1.0.0"
+}

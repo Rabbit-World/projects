@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "language": "繁體中文",
+    "direction": "ltr"
+  },
+  "header": {
+    "title": "Rabbit R1 指南",
+    "menu": "切換選單"
+  },
+  "navigation": {
+    "home": "首頁",
+    "getting_started": "入門指南",
+    "core_features": "核心功能",
+    "tech_specs": "技術規格",
+    "language": "語言",
+    "troubleshooting": "故障排除",
+    "faq": "常見問題",
+    "updates": "更新"
+  },
+  "home": {
+    "welcome": "歡迎使用您的 Rabbit R1",
+    "tagline": "您的口袋AI助手，通過自然對話簡化數位任務。",
+    "quick_access": "快速訪問",
+    "setup_device": "設置裝置",
+    "learn_basics": "學習基礎",
+    "explore_features": "探索功能",
+    "get_help": "獲取幫助"
+  },
+  "getting_started": {
+    "title": "入門指南",
+    "unboxing": {
+      "title": "拆箱您的 R1",
+      "description": "您的 Rabbit R1 包裝包含裝置、USB-C 充電線和快速入門指南。",
+      "step1": "從包裝中取出 R1",
+      "step2": "使用隨附的 USB-C 線為裝置充電",
+      "step3": "按住電源按鈕開啟裝置"
+    },
+    "initial_setup": {
+      "title": "初始設置",
+      "description": "按照以下步驟首次設置您的 Rabbit R1：",
+      "step1": "按住電源按鈕開啟您的 R1",
+      "step2": "按照螢幕上的說明連接到 Wi-Fi",
+      "step3": "創建或登入您的 Rabbit 帳戶",
+      "step4": "完成裝置啟用過程",
+      "step5": "您的 R1 現在可以使用了！"
+    },
+    "basic_controls": {
+      "title": "基本控制",
+      "power_button": "電源按鈕：按住開/關機。快速按一下進入睡眠/喚醒。",
+      "rabbit_button": "Rabbit 按鈕：按住啟動語音助手。",
+      "volume": "音量控制：使用側面的按鈕調節音量。",
+      "scroll_wheel": "滾輪：瀏覽選單和選項。"
+    },
+    "connecting": {
+      "title": "連接到 Wi-Fi",
+      "description": "您的 R1 需要穩定的網際網路連接才能正常工作。",
+      "step1": "前往設置 > 網路",
+      "step2": "選擇您的 Wi-Fi 網路",
+      "step3": "如需要，輸入密碼",
+      "step4": "您的 R1 將來會自動連接到此網路"
+    }
+  },
+  "language_settings": {
+    "title": "語言設置",
+    "select_language": "選擇您的首選語言：",
+    "note": "更改語言將更新本指南的界面語言。",
+    "translation_title": "翻譯",
+    "translation_description": "您的 Rabbit R1 支持多種語言的即時翻譯。",
+    "supported_languages": "支持翻譯的語言："
+  },
+  "buttons": {
+    "learn_more": "了解更多",
+    "download": "下載",
+    "apply": "應用",
+    "cancel": "取消",
+    "save": "保存",
+    "next": "下一步",
+    "previous": "上一步"
+  }
+}

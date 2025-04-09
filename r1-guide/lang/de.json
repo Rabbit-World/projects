@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "language": "Deutsch",
+    "direction": "ltr"
+  },
+  "header": {
+    "title": "Rabbit R1 Anleitung",
+    "menu": "Menü umschalten"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "getting_started": "Erste Schritte",
+    "core_features": "Kernfunktionen",
+    "tech_specs": "Technische Daten",
+    "language": "Sprache",
+    "troubleshooting": "Fehlerbehebung",
+    "faq": "FAQ",
+    "updates": "Updates"
+  },
+  "home": {
+    "welcome": "Willkommen bei Ihrem Rabbit R1",
+    "tagline": "Ihr KI-Taschenbegleiter, der digitale Aufgaben durch natürliche Konversation vereinfacht.",
+    "quick_access": "Schnellzugriff",
+    "setup_device": "Gerät einrichten",
+    "learn_basics": "Grundlagen lernen",
+    "explore_features": "Funktionen erkunden",
+    "get_help": "Hilfe erhalten"
+  },
+  "getting_started": {
+    "title": "Erste Schritte",
+    "unboxing": {
+      "title": "Auspacken Ihres R1",
+      "description": "Ihr Rabbit R1-Paket enthält das Gerät, ein USB-C-Ladekabel und eine Schnellstartanleitung.",
+      "step1": "Nehmen Sie den R1 aus der Verpackung",
+      "step2": "Laden Sie Ihr Gerät mit dem mitgelieferten USB-C-Kabel auf",
+      "step3": "Halten Sie den Ein-/Ausschalter gedrückt, um Ihr Gerät einzuschalten"
+    },
+    "initial_setup": {
+      "title": "Ersteinrichtung",
+      "description": "Befolgen Sie diese Schritte, um Ihren Rabbit R1 zum ersten Mal einzurichten:",
+      "step1": "Schalten Sie Ihren R1 ein, indem Sie den Ein-/Ausschalter gedrückt halten",
+      "step2": "Folgen Sie den Anweisungen auf dem Bildschirm, um eine Verbindung zum WLAN herzustellen",
+      "step3": "Erstellen Sie ein Rabbit-Konto oder melden Sie sich an",
+      "step4": "Schließen Sie den Geräteaktivierungsprozess ab",
+      "step5": "Ihr R1 ist jetzt einsatzbereit!"
+    },
+    "basic_controls": {
+      "title": "Grundlegende Bedienelemente",
+      "power_button": "Ein-/Ausschalter: Gedrückt halten zum Ein-/Ausschalten. Kurz drücken für Standby/Aufwecken.",
+      "rabbit_button": "Rabbit-Taste: Gedrückt halten, um den Sprachassistenten zu aktivieren.",
+      "volume": "Lautstärkeregler: Verwenden Sie die Tasten an der Seite, um die Lautstärke anzupassen.",
+      "scroll_wheel": "Scrollrad: Navigieren Sie durch Menüs und Optionen."
+    },
+    "connecting": {
+      "title": "Verbindung zum WLAN herstellen",
+      "description": "Eine stabile Internetverbindung ist erforderlich, damit Ihr R1 ordnungsgemäß funktioniert.",
+      "step1": "Gehen Sie zu Einstellungen > Netzwerk",
+      "step2": "Wählen Sie Ihr WLAN-Netzwerk aus",
+      "step3": "Geben Sie bei Bedarf das Passwort ein",
+      "step4": "Ihr R1 wird sich in Zukunft automatisch mit diesem Netzwerk verbinden"
+    }
+  },
+  "language_settings": {
+    "title": "Spracheinstellungen",
+    "select_language": "Wählen Sie Ihre bevorzugte Sprache:",
+    "note": "Durch Ändern der Sprache wird die Oberflächensprache in dieser Anleitung aktualisiert.",
+    "translation_title": "Übersetzung",
+    "translation_description": "Ihr Rabbit R1 unterstützt Echtzeit-Übersetzung in mehreren Sprachen.",
+    "supported_languages": "Unterstützte Sprachen für die Übersetzung:"
+  },
+  "buttons": {
+    "learn_more": "Mehr erfahren",
+    "download": "Herunterladen",
+    "apply": "Anwenden",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "next": "Weiter",
+    "previous": "Zurück"
+  }
+}

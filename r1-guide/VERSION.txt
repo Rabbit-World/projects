@@ -1,0 +1,10 @@
+Version: 1.0.0
+Date: April 9, 2025
+Release Type: Initial Release
+Build Number: 20250409.1
+
+This is the initial release of the Rabbit R1 Guide website, providing comprehensive
+information about the Rabbit R1 device, including setup instructions, feature guides,
+and troubleshooting tips.
+
+The guide is optimized for the Rabbit R1's 2.88-inch screen and supports 14 languages.

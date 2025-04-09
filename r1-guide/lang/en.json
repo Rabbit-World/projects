@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "language": "English",
+    "direction": "ltr"
+  },
+  "header": {
+    "title": "Rabbit R1 Guide",
+    "menu": "Toggle menu"
+  },
+  "navigation": {
+    "home": "Home",
+    "getting_started": "Getting Started",
+    "core_features": "Core Features",
+    "tech_specs": "Tech Specs",
+    "language": "Language",
+    "troubleshooting": "Troubleshooting",
+    "faq": "FAQ",
+    "updates": "Updates"
+  },
+  "home": {
+    "welcome": "Welcome to Your Rabbit R1",
+    "tagline": "Your pocket AI companion that simplifies digital tasks through natural conversation.",
+    "quick_access": "Quick Access",
+    "setup_device": "Set Up Device",
+    "learn_basics": "Learn Basics",
+    "explore_features": "Explore Features",
+    "get_help": "Get Help"
+  },
+  "getting_started": {
+    "title": "Getting Started",
+    "unboxing": {
+      "title": "Unboxing Your R1",
+      "description": "Your Rabbit R1 package includes the device, USB-C charging cable, and quick start guide.",
+      "step1": "Remove the R1 from its packaging",
+      "step2": "Charge your device using the included USB-C cable",
+      "step3": "Press and hold the power button to turn on your device"
+    },
+    "initial_setup": {
+      "title": "Initial Setup",
+      "description": "Follow these steps to set up your Rabbit R1 for the first time:",
+      "step1": "Power on your R1 by pressing and holding the power button",
+      "step2": "Follow the on-screen instructions to connect to Wi-Fi",
+      "step3": "Create or sign in to your Rabbit account",
+      "step4": "Complete the device activation process",
+      "step5": "Your R1 is now ready to use!"
+    },
+    "basic_controls": {
+      "title": "Basic Controls",
+      "power_button": "Power Button: Press and hold to turn on/off. Quick press to sleep/wake.",
+      "rabbit_button": "Rabbit Button: Press and hold to activate voice assistant.",
+      "volume": "Volume Controls: Use the buttons on the side to adjust volume.",
+      "scroll_wheel": "Scroll Wheel: Navigate through menus and options."
+    },
+    "connecting": {
+      "title": "Connecting to Wi-Fi",
+      "description": "A stable internet connection is required for your R1 to function properly.",
+      "step1": "Go to Settings > Network",
+      "step2": "Select your Wi-Fi network",
+      "step3": "Enter the password if required",
+      "step4": "Your R1 will automatically connect to this network in the future"
+    }
+  },
+  "language_settings": {
+    "title": "Language Settings",
+    "select_language": "Select your preferred language:",
+    "note": "Changing the language will update the interface language on this guide.",
+    "translation_title": "Translation",
+    "translation_description": "Your Rabbit R1 supports real-time translation in multiple languages.",
+    "supported_languages": "Supported Languages for Translation:"
+  },
+  "buttons": {
+    "learn_more": "Learn More",
+    "download": "Download",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "save": "Save",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

@@ -1,0 +1,219 @@
+/* Restricted Page CSS for Rabbit R1 Guide Website */
+
+/* Base styles and reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Logo and device image */
+.logo-container {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.device-image {
+    max-width: 200px;
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+/* Content area */
+.content {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    color: #ff6b6b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #ff6b6b;
+    margin: 20px 0 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Divider */
+.divider {
+    height: 3px;
+    background: linear-gradient(to right, #ff6b6b, #ff8e53);
+    margin: 15px 0 25px;
+    border-radius: 2px;
+}
+
+/* Message box */
+.message {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    border-left: 4px solid #ff6b6b;
+}
+
+/* Info box */
+.info-box {
+    background-color: #f0f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.info-box ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.info-box li {
+    margin-bottom: 8px;
+}
+
+/* Options section */
+.options {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.primary {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+}
+
+.primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+}
+
+.secondary {
+    background-color: transparent;
+    color: #ff6b6b;
+    border: 2px solid #ff6b6b;
+}
+
+.secondary:hover {
+    background-color: rgba(255, 107, 107, 0.1);
+}
+
+/* Note section */
+.note {
+    background-color: #fff8e1;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    border-left: 4px solid #ffcc80;
+}
+
+/* Footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    .content {
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .btn {
+        display: block;
+        margin: 15px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+/* Specific styles for very small screens (like Rabbit R1's 2.88-inch screen) */
+@media (max-width: 320px) {
+    body {
+        padding: 10px;
+    }
+    
+    .content {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.1rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+    
+    p, li {
+        font-size: 0.9rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}

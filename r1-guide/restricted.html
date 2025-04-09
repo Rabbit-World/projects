@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabbit R1 Guide - Device Restricted</title>
+    <link rel="stylesheet" href="restricted.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="https://rabbit.tech/assets/images/r1.png" alt="Rabbit R1 Device" class="device-image">
+        </div>
+        
+        <div class="content">
+            <h1>Rabbit R1 Guide</h1>
+            <div class="divider"></div>
+            
+            <div class="message">
+                <h2>This website is optimized for Rabbit R1 devices</h2>
+                <p>You appear to be accessing this site from a non-Rabbit R1 device.</p>
+                <p>The Rabbit R1 Guide is specifically designed for the 2.88-inch screen and unique interface of the Rabbit R1 AI assistant device.</p>
+            </div>
+            
+            <div class="info-box">
+                <h3>About the Rabbit R1</h3>
+                <p>The Rabbit R1 is a pocket-sized AI assistant with:</p>
+                <ul>
+                    <li>2.88-inch touchscreen display</li>
+                    <li>AI-powered interface (LAM - Large Action Model)</li>
+                    <li>360-degree rotating camera</li>
+                    <li>Push-to-talk functionality</li>
+                    <li>Integration with services like Uber, DoorDash, Spotify, and Midjourney</li>
+                </ul>
+            </div>
+            
+            <div class="options">
+                <h3>Options</h3>
+                <button id="continue-anyway" class="btn primary">Continue to Website Anyway</button>
+                <a href="https://rabbit.tech" class="btn secondary">Learn More About Rabbit R1</a>
+            </div>
+            
+            <div class="note">
+                <p><strong>Note:</strong> While you can access this guide from any device, the content and layout are optimized for the Rabbit R1's unique form factor and capabilities.</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 Rabbit R1 Guide | This is an unofficial guide and is not affiliated with Rabbit Inc.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple script to allow users to continue anyway
+        document.getElementById('continue-anyway').addEventListener('click', function() {
+            // Set override in session storage
+            sessionStorage.setItem('rabbit_override', 'true');
+            // Redirect to home page
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>

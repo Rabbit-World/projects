@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "language": "Svenska",
+    "direction": "ltr"
+  },
+  "header": {
+    "title": "Rabbit R1 Guide",
+    "menu": "Växla meny"
+  },
+  "navigation": {
+    "home": "Hem",
+    "getting_started": "Komma igång",
+    "core_features": "Kärnfunktioner",
+    "tech_specs": "Tekniska specifikationer",
+    "language": "Språk",
+    "troubleshooting": "Felsökning",
+    "faq": "Vanliga frågor",
+    "updates": "Uppdateringar"
+  },
+  "home": {
+    "welcome": "Välkommen till din Rabbit R1",
+    "tagline": "Din AI-följeslagare i fickan som förenklar digitala uppgifter genom naturliga konversationer.",
+    "quick_access": "Snabbåtkomst",
+    "setup_device": "Konfigurera enhet",
+    "learn_basics": "Lär dig grunderna",
+    "explore_features": "Utforska funktioner",
+    "get_help": "Få hjälp"
+  },
+  "getting_started": {
+    "title": "Komma igång",
+    "unboxing": {
+      "title": "Packa upp din R1",
+      "description": "Ditt Rabbit R1-paket innehåller enheten, USB-C-laddningskabel och snabbstartsguide.",
+      "step1": "Ta ut R1 från förpackningen",
+      "step2": "Ladda din enhet med den medföljande USB-C-kabeln",
+      "step3": "Tryck och håll ned strömknappen för att slå på enheten"
+    },
+    "initial_setup": {
+      "title": "Initial konfiguration",
+      "description": "Följ dessa steg för att konfigurera din Rabbit R1 för första gången:",
+      "step1": "Slå på din R1 genom att trycka och hålla ned strömknappen",
+      "step2": "Följ instruktionerna på skärmen för att ansluta till Wi-Fi",
+      "step3": "Skapa eller logga in på ditt Rabbit-konto",
+      "step4": "Slutför enhetsaktiveringen",
+      "step5": "Din R1 är nu redo att användas!"
+    },
+    "basic_controls": {
+      "title": "Grundläggande kontroller",
+      "power_button": "Strömknapp: Tryck och håll för att slå på/av. Snabbtryck för viloläge/väckning.",
+      "rabbit_button": "Rabbit-knapp: Tryck och håll för att aktivera röstassistenten.",
+      "volume": "Volymkontroller: Använd knapparna på sidan för att justera volymen.",
+      "scroll_wheel": "Scrollhjul: Navigera genom menyer och alternativ."
+    },
+    "connecting": {
+      "title": "Ansluta till Wi-Fi",
+      "description": "En stabil internetanslutning krävs för att din R1 ska fungera korrekt.",
+      "step1": "Gå till Inställningar > Nätverk",
+      "step2": "Välj ditt Wi-Fi-nätverk",
+      "step3": "Ange lösenordet om det behövs",
+      "step4": "Din R1 kommer automatiskt att ansluta till detta nätverk i framtiden"
+    }
+  },
+  "language_settings": {
+    "title": "Språkinställningar",
+    "select_language": "Välj ditt föredragna språk:",
+    "note": "Att ändra språk uppdaterar gränssnittsspråket i denna guide.",
+    "translation_title": "Översättning",
+    "translation_description": "Din Rabbit R1 stöder realtidsöversättning på flera språk.",
+    "supported_languages": "Språk som stöds för översättning:"
+  },
+  "buttons": {
+    "learn_more": "Läs mer",
+    "download": "Ladda ner",
+    "apply": "Tillämpa",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "next": "Nästa",
+    "previous": "Föregående"
+  }
+}

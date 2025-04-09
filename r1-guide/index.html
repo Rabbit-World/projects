@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rabbit R1 Guide</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="detect.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="r1_device.png" alt="Rabbit Logo" class="logo-img">
+            <h1 data-i18n="header.title">Rabbit R1 Guide</h1>
+        </div>
+        <button id="menu-toggle" aria-label="Toggle menu" data-i18n="header.menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#home" class="nav-item" data-i18n="navigation.home">Home</a></li>
+                <li><a href="#getting-started" class="nav-item" data-i18n="navigation.getting_started">Getting Started</a></li>
+                <li><a href="#core-features" class="nav-item" data-i18n="navigation.core_features">Core Features</a></li>
+                <li><a href="#tech-specs" class="nav-item" data-i18n="navigation.tech_specs">Tech Specs</a></li>
+                <li><a href="#language" class="nav-item" data-i18n="navigation.language">Language</a></li>
+                <li><a href="#troubleshooting" class="nav-item" data-i18n="navigation.troubleshooting">Troubleshooting</a></li>
+                <li><a href="#faq" class="nav-item" data-i18n="navigation.faq">FAQ</a></li>
+                <li><a href="#updates" class="nav-item" data-i18n="navigation.updates">Updates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero">
+                <h2 data-i18n="home.welcome">Welcome to Your Rabbit R1</h2>
+                <p data-i18n="home.tagline">Your pocket AI companion that simplifies digital tasks through natural conversation.</p>
+                <div class="hero-image">
+                    <img src="r1_device.png" alt="Rabbit R1 Device" class="device-image">
+                </div>
+            </div>
+
+            <div class="quick-access">
+                <h3 data-i18n="home.quick_access">Quick Access</h3>
+                <div class="card-grid">
+                    <a href="#getting-started" class="card">
+                        <div class="card-icon"><i class="icon-setup"></i></div>
+                        <h4 data-i18n="home.setup_device">Set Up Device</h4>
+                    </a>
+                    <a href="#getting-started" class="card">
+                        <div class="card-icon"><i class="icon-learn"></i></div>
+                        <h4 data-i18n="home.learn_basics">Learn Basics</h4>
+                    </a>
+                    <a href="#core-features" class="card">
+                        <div class="card-icon"><i class="icon-features"></i></div>
+                        <h4 data-i18n="home.explore_features">Explore Features</h4>
+                    </a>
+                    <a href="#troubleshooting" class="card">
+                        <div class="card-icon"><i class="icon-help"></i></div>
+                        <h4 data-i18n="home.get_help">Get Help</h4>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Getting Started Section -->
+        <section id="getting-started" class="section">
+            <h2 data-i18n="getting_started.title">Getting Started</h2>
+            
+            <div class="subsection">
+                <h3 data-i18n="getting_started.unboxing.title">Unboxing Your R1</h3>
+                <p data-i18n="getting_started.unboxing.description">Your Rabbit R1 package includes the device, USB-C charging cable, and quick start guide.</p>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p data-i18n="getting_started.unboxing.step1">Remove the R1 from its packaging</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p data-i18n="getting_started.unboxing.step2">Charge your device using the included USB-C cable</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p data-i18n="getting_started.unboxing.step3">Press and hold the power button to turn on your device</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subsection">
+                <h3 data-i18n="getting_started.initial_setup.title">Initial Setup</h3>
+                <p data-i18n="getting_started.initial_setup.description">Follow these steps to set up your Rabbit R1 for the first time:</p>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p data-i18n="getting_started.initial_setup.step1">Power on your R1 by pressing and holding the power button</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p data-i18n="getting_started.initial_setup.step2">Follow the on-screen instructions to connect to Wi-Fi</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p data-i18n="getting_started.initial_setup.step3">Create or sign in to your Rabbit account</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <p data-i18n="getting_started.initial_setup.step4">Complete the device activation process</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <p data-i18n="getting_started.initial_setup.step5">Your R1 is now ready to use!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subsection">
+                <h3 data-i18n="getting_started.basic_controls.title">Basic Controls</h3>
+                <div class="controls-grid">
+                    <div class="control-item">
+                        <div class="control-icon"><i class="icon-power"></i></div>
+                        <p data-i18n="getting_started.basic_controls.power_button">Power Button: Press and hold to turn on/off. Quick press to sleep/wake.</p>
+                    </div>
+                    <div class="control-item">
+                        <div class="control-icon"><i class="icon-rabbit"></i></div>
+                        <p data-i18n="getting_started.basic_controls.rabbit_button">Rabbit Button: Press and hold to activate voice assistant.</p>
+                    </div>
+                    <div class="control-item">
+                        <div class="control-icon"><i class="icon-volume"></i></div>
+                        <p data-i18n="getting_started.basic_controls.volume">Volume Controls: Use the buttons on the side to adjust volume.</p>
+                    </div>
+                    <div class="control-item">
+                        <div class="control-icon"><i class="icon-scroll"></i></div>
+                        <p data-i18n="getting_started.basic_controls.scroll_wheel">Scroll Wheel: Navigate through menus and options.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subsection">
+                <h3 data-i18n="getting_started.connecting.title">Connecting to Wi-Fi</h3>
+                <p data-i18n="getting_started.connecting.description">A stable internet connection is required for your R1 to function properly.</p>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <p data-i18n="getting_started.connecting.step1">Go to Settings > Network</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <p data-i18n="getting_started.connecting.step2">Select your Wi-Fi network</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <p data-i18n="getting_started.connecting.step3">Enter the password if required</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <p data-i18n="getting_started.connecting.step4">Your R1 will automatically connect to this network in the future</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Features Section -->
+        <section id="core-features" class="section">
+            <h2 data-i18n="navigation.core_features">Core Features</h2>
+            <!-- Core features content -->
+        </section>
+
+        <!-- Tech Specs Section -->
+        <section id="tech-specs" class="section">
+            <h2 data-i18n="navigation.tech_specs">Tech Specs</h2>
+            <!-- Tech specs content -->
+        </section>
+
+        <!-- Language Section -->
+        <section id="language" class="section">
+            <h2 data-i18n="language_settings.title">Language Settings</h2>
+            
+            <div class="language-selector-container">
+                <label for="language-selector" data-i18n="language_settings.select_language">Select your preferred language:</label>
+                <select id="language-selector" class="language-dropdown">
+                    <option value="en">English</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="ja">日本語 (Japanese)</option>
+                    <option value="zh-CN">简体中文 (Chinese Simplified)</option>
+                    <option value="zh-TW">繁體中文 (Chinese Traditional)</option>
+                    <option value="ko">한국어 (Korean)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="ru">Русский (Russian)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="ar">العربية (Arabic)</option>
+                    <option value="hi">हिन्दी (Hindi)</option>
+                </select>
+                <p class="language-note" data-i18n="language_settings.note">Changing the language will update the interface language on this guide.</p>
+            </div>
+            
+            <div class="subsection">
+                <h3 data-i18n="language_settings.translation_title">Translation</h3>
+                <p data-i18n="language_settings.translation_description">Your Rabbit R1 supports real-time translation in multiple languages.</p>
+                <h4 data-i18n="language_settings.supported_languages">Supported Languages for Translation:</h4>
+                <ul class="language-list">
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>French</li>
+                    <li>German</li>
+                    <li>Japanese</li>
+                    <li>Chinese (Simplified)</li>
+                    <li>Chinese (Traditional)</li>
+                    <li>Korean</li>
+                    <li>Italian</li>
+                    <li>Portuguese</li>
+                    <li>Russian</li>
+                    <li>Swedish</li>
+                    <li>Arabic</li>
+                    <li>Hindi</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Troubleshooting Section -->
+        <section id="troubleshooting" class="section">
+            <h2 data-i18n="navigation.troubleshooting">Troubleshooting</h2>
+            <!-- Troubleshooting content -->
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section">
+            <h2 data-i18n="navigation.faq">FAQ</h2>
+            <!-- FAQ content -->
+        </section>
+
+        <!-- Updates Section -->
+        <section id="updates" class="section">
+            <h2 data-i18n="navigation.updates">Updates</h2>
+            <!-- Updates content -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="r1_device.png" alt="Rabbit Logo" class="footer-logo-img">
+                <p>Rabbit R1</p>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Privacy Policy</a>
+                <a href="#" class="footer-link">Terms of Service</a>
+                <a href="#" class="footer-link">Contact Support</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="icon-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="icon-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="icon-youtube"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Rabbit Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

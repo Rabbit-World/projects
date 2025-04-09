@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "language": "Italiano",
+    "direction": "ltr"
+  },
+  "header": {
+    "title": "Guida Rabbit R1",
+    "menu": "Attiva/disattiva menu"
+  },
+  "navigation": {
+    "home": "Home",
+    "getting_started": "Iniziare",
+    "core_features": "Funzionalità Principali",
+    "tech_specs": "Specifiche Tecniche",
+    "language": "Lingua",
+    "troubleshooting": "Risoluzione Problemi",
+    "faq": "FAQ",
+    "updates": "Aggiornamenti"
+  },
+  "home": {
+    "welcome": "Benvenuto nel tuo Rabbit R1",
+    "tagline": "Il tuo assistente AI tascabile che semplifica le attività digitali attraverso conversazioni naturali.",
+    "quick_access": "Accesso Rapido",
+    "setup_device": "Configura Dispositivo",
+    "learn_basics": "Impara le Basi",
+    "explore_features": "Esplora Funzionalità",
+    "get_help": "Ottieni Aiuto"
+  },
+  "getting_started": {
+    "title": "Iniziare",
+    "unboxing": {
+      "title": "Disimballaggio del R1",
+      "description": "La confezione del tuo Rabbit R1 include il dispositivo, un cavo di ricarica USB-C e una guida rapida.",
+      "step1": "Rimuovi il R1 dalla confezione",
+      "step2": "Carica il dispositivo utilizzando il cavo USB-C incluso",
+      "step3": "Tieni premuto il pulsante di accensione per accendere il dispositivo"
+    },
+    "initial_setup": {
+      "title": "Configurazione Iniziale",
+      "description": "Segui questi passaggi per configurare il tuo Rabbit R1 per la prima volta:",
+      "step1": "Accendi il R1 tenendo premuto il pulsante di accensione",
+      "step2": "Segui le istruzioni sullo schermo per connetterti al Wi-Fi",
+      "step3": "Crea o accedi al tuo account Rabbit",
+      "step4": "Completa il processo di attivazione del dispositivo",
+      "step5": "Il tuo R1 è ora pronto all'uso!"
+    },
+    "basic_controls": {
+      "title": "Controlli Base",
+      "power_button": "Pulsante di Accensione: Tieni premuto per accendere/spegnere. Premi brevemente per sospendere/riattivare.",
+      "rabbit_button": "Pulsante Rabbit: Tieni premuto per attivare l'assistente vocale.",
+      "volume": "Controlli Volume: Usa i pulsanti sul lato per regolare il volume.",
+      "scroll_wheel": "Rotella di Scorrimento: Naviga attraverso menu e opzioni."
+    },
+    "connecting": {
+      "title": "Connessione al Wi-Fi",
+      "description": "Una connessione internet stabile è necessaria per il corretto funzionamento del R1.",
+      "step1": "Vai su Impostazioni > Rete",
+      "step2": "Seleziona la tua rete Wi-Fi",
+      "step3": "Inserisci la password se richiesto",
+      "step4": "Il tuo R1 si connetterà automaticamente a questa rete in futuro"
+    }
+  },
+  "language_settings": {
+    "title": "Impostazioni Lingua",
+    "select_language": "Seleziona la tua lingua preferita:",
+    "note": "Cambiare la lingua aggiornerà la lingua dell'interfaccia in questa guida.",
+    "translation_title": "Traduzione",
+    "translation_description": "Il tuo Rabbit R1 supporta la traduzione in tempo reale in più lingue.",
+    "supported_languages": "Lingue supportate per la traduzione:"
+  },
+  "buttons": {
+    "learn_more": "Scopri di Più",
+    "download": "Scarica",
+    "apply": "Applica",
+    "cancel": "Annulla",
+    "save": "Salva",
+    "next": "Avanti",
+    "previous": "Indietro"
+  }
+}
